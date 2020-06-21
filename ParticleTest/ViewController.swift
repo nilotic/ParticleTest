@@ -51,6 +51,11 @@ final class ViewController: UIViewController {
         if heartButton.isSelected == true, let heartEmitter = SKEmitterNode(fileNamed: "Heart") {
             heartEmitter.position = point
             scene.addChild(heartEmitter)
+            
+            /*
+            guard let gif = GIFConverter.gif(data: try? Data(contentsOf: Bundle.main.url(forResource: "anger", withExtension: "gif")!)) else { return }
+            heartEmitter.particleTexture = SKTexture(image: gif)
+             */
         }
         
         if starBorderButton.isSelected == true, let starBorderEmitter = SKEmitterNode(fileNamed: "StarBorder") {
