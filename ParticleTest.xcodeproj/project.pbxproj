@@ -7,32 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B733DAE4249F2EE300856A75 /* anger.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DADE249F2EE300856A75 /* anger.gif */; };
-		B733DAE5249F2EE300856A75 /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DADF249F2EE300856A75 /* love.gif */; };
-		B733DAE6249F2EE300856A75 /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DAE0249F2EE300856A75 /* wow.gif */; };
-		B733DAE7249F2EE300856A75 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DAE1249F2EE300856A75 /* haha.gif */; };
-		B733DAE8249F2EE300856A75 /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DAE2249F2EE300856A75 /* sad.gif */; };
-		B733DAE9249F2EE300856A75 /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = B733DAE3249F2EE300856A75 /* like.gif */; };
 		B733DAEB249F305A00856A75 /* GIFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733DAEA249F305A00856A75 /* GIFConverter.swift */; };
+		B754CE9F24A0752500DC1DE3 /* LoveReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9A24A0752400DC1DE3 /* LoveReaction.sks */; };
+		B754CEA024A0752500DC1DE3 /* HahaReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9B24A0752500DC1DE3 /* HahaReaction.sks */; };
+		B754CEA124A0752500DC1DE3 /* SadReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9C24A0752500DC1DE3 /* SadReaction.sks */; };
+		B754CEA224A0752500DC1DE3 /* AngerReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9D24A0752500DC1DE3 /* AngerReaction.sks */; };
+		B754CEA324A0752500DC1DE3 /* WowReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9E24A0752500DC1DE3 /* WowReaction.sks */; };
 		B7B04A962497444400D1CB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B04A952497444400D1CB24 /* AppDelegate.swift */; };
 		B7B04A982497444400D1CB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B04A972497444400D1CB24 /* SceneDelegate.swift */; };
 		B7B04A9A2497444400D1CB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B04A992497444400D1CB24 /* ViewController.swift */; };
 		B7B04A9D2497444400D1CB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B04A9B2497444400D1CB24 /* Main.storyboard */; };
 		B7B04A9F2497444500D1CB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B04A9E2497444500D1CB24 /* Assets.xcassets */; };
 		B7B04AA22497444500D1CB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B04AA02497444500D1CB24 /* LaunchScreen.storyboard */; };
-		B7B04AAC2497448800D1CB24 /* StarBorder.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B04AA92497448800D1CB24 /* StarBorder.sks */; };
-		B7B04AAD2497448800D1CB24 /* Heart.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B04AAA2497448800D1CB24 /* Heart.sks */; };
-		B7B04AAE2497448800D1CB24 /* StarFill.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B04AAB2497448800D1CB24 /* StarFill.sks */; };
+		B7E8450924A025DA00E2294B /* Heart.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7E8450524A025D900E2294B /* Heart.sks */; };
+		B7E8450A24A025DA00E2294B /* StarFill.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7E8450624A025DA00E2294B /* StarFill.sks */; };
+		B7E8450B24A025DA00E2294B /* Like.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7E8450724A025DA00E2294B /* Like.sks */; };
+		B7E8450C24A025DA00E2294B /* StarBorder.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7E8450824A025DA00E2294B /* StarBorder.sks */; };
+		B7E8451C24A039B000E2294B /* LikeReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7E8451B24A039B000E2294B /* LikeReaction.sks */; };
+		B7E8453124A050FD00E2294B /* anger.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8452B24A050FD00E2294B /* anger.gif */; };
+		B7E8453224A050FD00E2294B /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8452C24A050FD00E2294B /* love.gif */; };
+		B7E8453324A050FD00E2294B /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8452D24A050FD00E2294B /* wow.gif */; };
+		B7E8453424A050FD00E2294B /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8452E24A050FD00E2294B /* haha.gif */; };
+		B7E8453524A050FD00E2294B /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8452F24A050FD00E2294B /* sad.gif */; };
+		B7E8453624A050FD00E2294B /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453024A050FD00E2294B /* like.gif */; };
+		B7E8454124A0534200E2294B /* anger.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453B24A0534200E2294B /* anger.atlas */; };
+		B7E8454224A0534200E2294B /* like.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453C24A0534200E2294B /* like.atlas */; };
+		B7E8454324A0534200E2294B /* haha.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453D24A0534200E2294B /* haha.atlas */; };
+		B7E8454424A0534200E2294B /* wow.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453E24A0534200E2294B /* wow.atlas */; };
+		B7E8454524A0534200E2294B /* sad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8453F24A0534200E2294B /* sad.atlas */; };
+		B7E8454624A0534200E2294B /* love.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7E8454024A0534200E2294B /* love.atlas */; };
+		B7E8454824A0535900E2294B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8454724A0535900E2294B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B733DADE249F2EE300856A75 /* anger.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anger.gif; sourceTree = "<group>"; };
-		B733DADF249F2EE300856A75 /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
-		B733DAE0249F2EE300856A75 /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
-		B733DAE1249F2EE300856A75 /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
-		B733DAE2249F2EE300856A75 /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
-		B733DAE3249F2EE300856A75 /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
 		B733DAEA249F305A00856A75 /* GIFConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFConverter.swift; sourceTree = "<group>"; };
+		B754CE9A24A0752400DC1DE3 /* LoveReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoveReaction.sks; sourceTree = "<group>"; };
+		B754CE9B24A0752500DC1DE3 /* HahaReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HahaReaction.sks; sourceTree = "<group>"; };
+		B754CE9C24A0752500DC1DE3 /* SadReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SadReaction.sks; sourceTree = "<group>"; };
+		B754CE9D24A0752500DC1DE3 /* AngerReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AngerReaction.sks; sourceTree = "<group>"; };
+		B754CE9E24A0752500DC1DE3 /* WowReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WowReaction.sks; sourceTree = "<group>"; };
 		B7B04A922497444400D1CB24 /* ParticleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B04A952497444400D1CB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B04A972497444400D1CB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +54,24 @@
 		B7B04A9E2497444500D1CB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B04AA12497444500D1CB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7B04AA32497444500D1CB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7B04AA92497448800D1CB24 /* StarBorder.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarBorder.sks; sourceTree = "<group>"; };
-		B7B04AAA2497448800D1CB24 /* Heart.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Heart.sks; sourceTree = "<group>"; };
-		B7B04AAB2497448800D1CB24 /* StarFill.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarFill.sks; sourceTree = "<group>"; };
+		B7E8450524A025D900E2294B /* Heart.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Heart.sks; sourceTree = "<group>"; };
+		B7E8450624A025DA00E2294B /* StarFill.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarFill.sks; sourceTree = "<group>"; };
+		B7E8450724A025DA00E2294B /* Like.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Like.sks; sourceTree = "<group>"; };
+		B7E8450824A025DA00E2294B /* StarBorder.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarBorder.sks; sourceTree = "<group>"; };
+		B7E8451B24A039B000E2294B /* LikeReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LikeReaction.sks; sourceTree = "<group>"; };
+		B7E8452B24A050FD00E2294B /* anger.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anger.gif; sourceTree = "<group>"; };
+		B7E8452C24A050FD00E2294B /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
+		B7E8452D24A050FD00E2294B /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
+		B7E8452E24A050FD00E2294B /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		B7E8452F24A050FD00E2294B /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
+		B7E8453024A050FD00E2294B /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
+		B7E8453B24A0534200E2294B /* anger.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = anger.atlas; sourceTree = "<group>"; };
+		B7E8453C24A0534200E2294B /* like.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = like.atlas; sourceTree = "<group>"; };
+		B7E8453D24A0534200E2294B /* haha.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = haha.atlas; sourceTree = "<group>"; };
+		B7E8453E24A0534200E2294B /* wow.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = wow.atlas; sourceTree = "<group>"; };
+		B7E8453F24A0534200E2294B /* sad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sad.atlas; sourceTree = "<group>"; };
+		B7E8454024A0534200E2294B /* love.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = love.atlas; sourceTree = "<group>"; };
+		B7E8454724A0535900E2294B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,20 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B733DADD249F2EE300856A75 /* Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				B733DADE249F2EE300856A75 /* anger.gif */,
-				B733DADF249F2EE300856A75 /* love.gif */,
-				B733DAE0249F2EE300856A75 /* wow.gif */,
-				B733DAE1249F2EE300856A75 /* haha.gif */,
-				B733DAE2249F2EE300856A75 /* sad.gif */,
-				B733DAE3249F2EE300856A75 /* like.gif */,
-			);
-			name = Facebook;
-			path = ../../../../Downloads/Facebook;
-			sourceTree = "<group>";
-		};
 		B7B04A892497444400D1CB24 = {
 			isa = PBXGroup;
 			children = (
@@ -91,19 +105,86 @@
 			isa = PBXGroup;
 			children = (
 				B7B04AA02497444500D1CB24 /* LaunchScreen.storyboard */,
-				B7B04A9B2497444400D1CB24 /* Main.storyboard */,
 				B7B04A952497444400D1CB24 /* AppDelegate.swift */,
 				B7B04A972497444400D1CB24 /* SceneDelegate.swift */,
-				B7B04A992497444400D1CB24 /* ViewController.swift */,
-				B733DAEA249F305A00856A75 /* GIFConverter.swift */,
-				B7B04A9E2497444500D1CB24 /* Assets.xcassets */,
-				B733DADD249F2EE300856A75 /* Facebook */,
+				B7E8453724A052CF00E2294B /* ParticeView */,
+				B7E8453924A052EE00E2294B /* Assets */,
+				B7E8453824A052E000E2294B /* Util */,
 				B7B04AA32497444500D1CB24 /* Info.plist */,
-				B7B04AAA2497448800D1CB24 /* Heart.sks */,
-				B7B04AA92497448800D1CB24 /* StarBorder.sks */,
-				B7B04AAB2497448800D1CB24 /* StarFill.sks */,
 			);
 			path = ParticleTest;
+			sourceTree = "<group>";
+		};
+		B7E8451A24A0396900E2294B /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8450524A025D900E2294B /* Heart.sks */,
+				B7E8451B24A039B000E2294B /* LikeReaction.sks */,
+				B754CE9D24A0752500DC1DE3 /* AngerReaction.sks */,
+				B754CE9B24A0752500DC1DE3 /* HahaReaction.sks */,
+				B754CE9A24A0752400DC1DE3 /* LoveReaction.sks */,
+				B754CE9C24A0752500DC1DE3 /* SadReaction.sks */,
+				B754CE9E24A0752500DC1DE3 /* WowReaction.sks */,
+				B7E8450724A025DA00E2294B /* Like.sks */,
+				B7E8450824A025DA00E2294B /* StarBorder.sks */,
+				B7E8450624A025DA00E2294B /* StarFill.sks */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		B7E8452A24A050FD00E2294B /* Facebook Reaction */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8452B24A050FD00E2294B /* anger.gif */,
+				B7E8452C24A050FD00E2294B /* love.gif */,
+				B7E8452D24A050FD00E2294B /* wow.gif */,
+				B7E8452E24A050FD00E2294B /* haha.gif */,
+				B7E8452F24A050FD00E2294B /* sad.gif */,
+				B7E8453024A050FD00E2294B /* like.gif */,
+			);
+			path = "Facebook Reaction";
+			sourceTree = "<group>";
+		};
+		B7E8453724A052CF00E2294B /* ParticeView */ = {
+			isa = PBXGroup;
+			children = (
+				B7B04A9B2497444400D1CB24 /* Main.storyboard */,
+				B7B04A992497444400D1CB24 /* ViewController.swift */,
+				B7E8454724A0535900E2294B /* DataManager.swift */,
+			);
+			path = ParticeView;
+			sourceTree = "<group>";
+		};
+		B7E8453824A052E000E2294B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B733DAEA249F305A00856A75 /* GIFConverter.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B7E8453924A052EE00E2294B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B7B04A9E2497444500D1CB24 /* Assets.xcassets */,
+				B7E8453A24A0534200E2294B /* Atlas */,
+				B7E8452A24A050FD00E2294B /* Facebook Reaction */,
+				B7E8451A24A0396900E2294B /* Particle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B7E8453A24A0534200E2294B /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8453B24A0534200E2294B /* anger.atlas */,
+				B7E8453C24A0534200E2294B /* like.atlas */,
+				B7E8453D24A0534200E2294B /* haha.atlas */,
+				B7E8453E24A0534200E2294B /* wow.atlas */,
+				B7E8453F24A0534200E2294B /* sad.atlas */,
+				B7E8454024A0534200E2294B /* love.atlas */,
+			);
+			path = Atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,18 +245,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B754CEA024A0752500DC1DE3 /* HahaReaction.sks in Resources */,
+				B7E8453224A050FD00E2294B /* love.gif in Resources */,
+				B7E8451C24A039B000E2294B /* LikeReaction.sks in Resources */,
+				B7E8454224A0534200E2294B /* like.atlas in Resources */,
+				B754CEA124A0752500DC1DE3 /* SadReaction.sks in Resources */,
+				B7E8450B24A025DA00E2294B /* Like.sks in Resources */,
+				B754CEA324A0752500DC1DE3 /* WowReaction.sks in Resources */,
+				B7E8454524A0534200E2294B /* sad.atlas in Resources */,
+				B7E8450A24A025DA00E2294B /* StarFill.sks in Resources */,
+				B7E8450C24A025DA00E2294B /* StarBorder.sks in Resources */,
+				B7E8454124A0534200E2294B /* anger.atlas in Resources */,
 				B7B04AA22497444500D1CB24 /* LaunchScreen.storyboard in Resources */,
-				B733DAE9249F2EE300856A75 /* like.gif in Resources */,
-				B7B04AAC2497448800D1CB24 /* StarBorder.sks in Resources */,
-				B733DAE7249F2EE300856A75 /* haha.gif in Resources */,
-				B733DAE5249F2EE300856A75 /* love.gif in Resources */,
-				B733DAE6249F2EE300856A75 /* wow.gif in Resources */,
-				B7B04AAE2497448800D1CB24 /* StarFill.sks in Resources */,
+				B7E8453124A050FD00E2294B /* anger.gif in Resources */,
+				B7E8450924A025DA00E2294B /* Heart.sks in Resources */,
+				B7E8454624A0534200E2294B /* love.atlas in Resources */,
 				B7B04A9F2497444500D1CB24 /* Assets.xcassets in Resources */,
 				B7B04A9D2497444400D1CB24 /* Main.storyboard in Resources */,
-				B733DAE8249F2EE300856A75 /* sad.gif in Resources */,
-				B7B04AAD2497448800D1CB24 /* Heart.sks in Resources */,
-				B733DAE4249F2EE300856A75 /* anger.gif in Resources */,
+				B7E8453324A050FD00E2294B /* wow.gif in Resources */,
+				B7E8454424A0534200E2294B /* wow.atlas in Resources */,
+				B754CEA224A0752500DC1DE3 /* AngerReaction.sks in Resources */,
+				B7E8453424A050FD00E2294B /* haha.gif in Resources */,
+				B7E8453624A050FD00E2294B /* like.gif in Resources */,
+				B7E8453524A050FD00E2294B /* sad.gif in Resources */,
+				B754CE9F24A0752500DC1DE3 /* LoveReaction.sks in Resources */,
+				B7E8454324A0534200E2294B /* haha.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B04A9A2497444400D1CB24 /* ViewController.swift in Sources */,
+				B7E8454824A0535900E2294B /* DataManager.swift in Sources */,
 				B7B04A962497444400D1CB24 /* AppDelegate.swift in Sources */,
 				B7B04A982497444400D1CB24 /* SceneDelegate.swift in Sources */,
 				B733DAEB249F305A00856A75 /* GIFConverter.swift in Sources */,

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ParticleTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yG4-0v-fWo" customClass="SKView">
+                                <rect key="frame" x="0.0" y="94" width="414" height="802"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNc-gg-mKI">
+                                <rect key="frame" x="0.0" y="44" width="60.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jrL-16-C6C"/>
+                                </constraints>
+                                <state key="normal" title="Heart"/>
+                                <connections>
+                                    <action selector="heartButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AVw-JO-maK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsm-oI-LPO">
+                                <rect key="frame" x="60.5" y="44" width="122.5" height="50"/>
+                                <state key="normal" title="Star Border"/>
+                                <connections>
+                                    <action selector="starBorderButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3U-UR-Ws0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbX-Yt-NBu">
+                                <rect key="frame" x="183" y="44" width="79" height="50"/>
+                                <state key="normal" title="Star Fill"/>
+                                <connections>
+                                    <action selector="starFillButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pqp-oZ-4Fw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhM-I8-qRY">
+                                <rect key="frame" x="262" y="44" width="46.5" height="50"/>
+                                <state key="normal" title="Like"/>
+                                <connections>
+                                    <action selector="likeButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YrE-XN-hoo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiZ-Av-zVe">
+                                <rect key="frame" x="308.5" y="44" width="105.5" height="50"/>
+                                <state key="normal" title="Reaction"/>
+                                <connections>
+                                    <action selector="reactionButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RhG-7p-nqI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jiZ-Av-zVe" firstAttribute="leading" secondItem="HhM-I8-qRY" secondAttribute="trailing" id="1OF-Y3-HkI"/>
+                            <constraint firstItem="jiZ-Av-zVe" firstAttribute="bottom" secondItem="HhM-I8-qRY" secondAttribute="bottom" id="4vY-Pt-ySZ"/>
+                            <constraint firstItem="Nsm-oI-LPO" firstAttribute="width" secondItem="bbX-Yt-NBu" secondAttribute="width" multiplier="1.54902" id="Aof-Gb-yCv"/>
+                            <constraint firstItem="jiZ-Av-zVe" firstAttribute="width" secondItem="HhM-I8-qRY" secondAttribute="width" multiplier="2.26667" id="Asz-rG-jkD"/>
+                            <constraint firstItem="yG4-0v-fWo" firstAttribute="top" secondItem="pNc-gg-mKI" secondAttribute="bottom" id="CUF-an-3lh"/>
+                            <constraint firstItem="yG4-0v-fWo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EfY-DD-SWi"/>
+                            <constraint firstItem="Nsm-oI-LPO" firstAttribute="leading" secondItem="pNc-gg-mKI" secondAttribute="trailing" id="HNI-LO-Iz8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yG4-0v-fWo" secondAttribute="trailing" id="IE1-sp-cjy"/>
+                            <constraint firstItem="bbX-Yt-NBu" firstAttribute="top" secondItem="Nsm-oI-LPO" secondAttribute="top" id="JXQ-Lp-9cg"/>
+                            <constraint firstItem="pNc-gg-mKI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LtA-v1-fcY"/>
+                            <constraint firstItem="Nsm-oI-LPO" firstAttribute="bottom" secondItem="pNc-gg-mKI" secondAttribute="bottom" id="ONr-pc-GQN"/>
+                            <constraint firstItem="HhM-I8-qRY" firstAttribute="leading" secondItem="bbX-Yt-NBu" secondAttribute="trailing" id="U5O-Da-VAv"/>
+                            <constraint firstItem="bbX-Yt-NBu" firstAttribute="bottom" secondItem="Nsm-oI-LPO" secondAttribute="bottom" id="UM4-mn-YfO"/>
+                            <constraint firstItem="bbX-Yt-NBu" firstAttribute="leading" secondItem="Nsm-oI-LPO" secondAttribute="trailing" id="XxM-wp-70c"/>
+                            <constraint firstItem="jiZ-Av-zVe" firstAttribute="top" secondItem="HhM-I8-qRY" secondAttribute="top" id="ZVw-zC-khK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jiZ-Av-zVe" secondAttribute="trailing" id="fgk-A6-b0g"/>
+                            <constraint firstItem="HhM-I8-qRY" firstAttribute="bottom" secondItem="bbX-Yt-NBu" secondAttribute="bottom" id="gQd-Px-atu"/>
+                            <constraint firstItem="Nsm-oI-LPO" firstAttribute="top" secondItem="pNc-gg-mKI" secondAttribute="top" id="gnu-PQ-uLh"/>
+                            <constraint firstItem="HhM-I8-qRY" firstAttribute="top" secondItem="bbX-Yt-NBu" secondAttribute="top" id="hgZ-CU-Jng"/>
+                            <constraint firstItem="pNc-gg-mKI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iBC-sn-mYO"/>
+                            <constraint firstItem="HhM-I8-qRY" firstAttribute="width" secondItem="bbX-Yt-NBu" secondAttribute="width" multiplier="0.588235" id="iEB-5n-JnT"/>
+                            <constraint firstItem="Nsm-oI-LPO" firstAttribute="width" secondItem="pNc-gg-mKI" secondAttribute="width" multiplier="2.02564" id="pge-kv-6cj"/>
+                            <constraint firstAttribute="bottom" secondItem="yG4-0v-fWo" secondAttribute="bottom" id="xa5-LK-RwL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HXI-9R-mzt" appends="YES" id="O4X-x0-Ec3"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="heartButton" destination="pNc-gg-mKI" id="qAt-Ri-d4I"/>
+                        <outlet property="likeButton" destination="HhM-I8-qRY" id="Usa-mP-q9G"/>
+                        <outlet property="particleView" destination="yG4-0v-fWo" id="dYF-HQ-emQ"/>
+                        <outlet property="reactionButton" destination="jiZ-Av-zVe" id="zvO-8M-ziQ"/>
+                        <outlet property="starBorderButton" destination="Nsm-oI-LPO" id="Phh-bX-bzB"/>
+                        <outlet property="starFillButton" destination="bbX-Yt-NBu" id="ScM-V7-Pfv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HXI-9R-mzt">
+                    <connections>
+                        <action selector="tapGestureRecognizerAction:" destination="BYZ-38-t0r" id="JvK-PY-HHT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+</document>
