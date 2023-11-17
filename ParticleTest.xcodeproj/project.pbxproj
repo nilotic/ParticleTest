@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71DFA322B0742D000540772 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA302B0742D000540772 /* Snow.sks */; };
+		B71DFA332B0742D000540772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA312B0742D000540772 /* Assets.xcassets */; };
+		B71DFA352B0742F200540772 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA342B0742F200540772 /* Rain.sks */; };
+		B71DFA372B07430900540772 /* BoKeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA362B07430900540772 /* BoKeh.sks */; };
+		B71DFA392B07434700540772 /* Snow2.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA382B07434700540772 /* Snow2.sks */; };
 		B733DAEB249F305A00856A75 /* GIFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733DAEA249F305A00856A75 /* GIFConverter.swift */; };
 		B754CE9F24A0752500DC1DE3 /* LoveReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9A24A0752400DC1DE3 /* LoveReaction.sks */; };
 		B754CEA024A0752500DC1DE3 /* HahaReaction.sks in Resources */ = {isa = PBXBuildFile; fileRef = B754CE9B24A0752500DC1DE3 /* HahaReaction.sks */; };
@@ -40,6 +45,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B71DFA302B0742D000540772 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		B71DFA312B0742D000540772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B71DFA342B0742F200540772 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		B71DFA362B07430900540772 /* BoKeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoKeh.sks; sourceTree = "<group>"; };
+		B71DFA382B07434700540772 /* Snow2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow2.sks; sourceTree = "<group>"; };
 		B733DAEA249F305A00856A75 /* GIFConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFConverter.swift; sourceTree = "<group>"; };
 		B754CE9A24A0752400DC1DE3 /* LoveReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoveReaction.sks; sourceTree = "<group>"; };
 		B754CE9B24A0752500DC1DE3 /* HahaReaction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HahaReaction.sks; sourceTree = "<group>"; };
@@ -127,6 +137,11 @@
 				B754CE9E24A0752500DC1DE3 /* WowReaction.sks */,
 				B7E8450724A025DA00E2294B /* Like.sks */,
 				B7E8450824A025DA00E2294B /* StarBorder.sks */,
+				B71DFA302B0742D000540772 /* Snow.sks */,
+				B71DFA382B07434700540772 /* Snow2.sks */,
+				B71DFA342B0742F200540772 /* Rain.sks */,
+				B71DFA362B07430900540772 /* BoKeh.sks */,
+				B71DFA312B0742D000540772 /* Assets.xcassets */,
 				B7E8450624A025DA00E2294B /* StarFill.sks */,
 			);
 			path = Particle;
@@ -246,13 +261,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B754CEA024A0752500DC1DE3 /* HahaReaction.sks in Resources */,
+				B71DFA372B07430900540772 /* BoKeh.sks in Resources */,
 				B7E8453224A050FD00E2294B /* love.gif in Resources */,
+				B71DFA322B0742D000540772 /* Snow.sks in Resources */,
 				B7E8451C24A039B000E2294B /* LikeReaction.sks in Resources */,
+				B71DFA392B07434700540772 /* Snow2.sks in Resources */,
 				B7E8454224A0534200E2294B /* like.atlas in Resources */,
 				B754CEA124A0752500DC1DE3 /* SadReaction.sks in Resources */,
 				B7E8450B24A025DA00E2294B /* Like.sks in Resources */,
 				B754CEA324A0752500DC1DE3 /* WowReaction.sks in Resources */,
 				B7E8454524A0534200E2294B /* sad.atlas in Resources */,
+				B71DFA352B0742F200540772 /* Rain.sks in Resources */,
 				B7E8450A24A025DA00E2294B /* StarFill.sks in Resources */,
 				B7E8450C24A025DA00E2294B /* StarBorder.sks in Resources */,
 				B7E8454124A0534200E2294B /* anger.atlas in Resources */,
@@ -269,6 +288,7 @@
 				B7E8453624A050FD00E2294B /* like.gif in Resources */,
 				B7E8453524A050FD00E2294B /* sad.gif in Resources */,
 				B754CE9F24A0752500DC1DE3 /* LoveReaction.sks in Resources */,
+				B71DFA332B0742D000540772 /* Assets.xcassets in Resources */,
 				B7E8454324A0534200E2294B /* haha.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
