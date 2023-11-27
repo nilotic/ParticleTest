@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		808D1BDD2B1432140001017D /* Snow3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 808D1BDC2B1432140001017D /* Snow3.sks */; };
 		B71DFA322B0742D000540772 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA302B0742D000540772 /* Snow.sks */; };
 		B71DFA332B0742D000540772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA312B0742D000540772 /* Assets.xcassets */; };
 		B71DFA352B0742F200540772 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = B71DFA342B0742F200540772 /* Rain.sks */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		808D1BDC2B1432140001017D /* Snow3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow3.sks; sourceTree = "<group>"; };
 		B71DFA302B0742D000540772 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
 		B71DFA312B0742D000540772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B71DFA342B0742F200540772 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		B7E8451A24A0396900E2294B /* Particle */ = {
 			isa = PBXGroup;
 			children = (
+				808D1BDC2B1432140001017D /* Snow3.sks */,
 				B7E8450524A025D900E2294B /* Heart.sks */,
 				B7E8451B24A039B000E2294B /* LikeReaction.sks */,
 				B754CE9D24A0752500DC1DE3 /* AngerReaction.sks */,
@@ -280,6 +283,7 @@
 				B7E8450924A025DA00E2294B /* Heart.sks in Resources */,
 				B7E8454624A0534200E2294B /* love.atlas in Resources */,
 				B7B04A9F2497444500D1CB24 /* Assets.xcassets in Resources */,
+				808D1BDD2B1432140001017D /* Snow3.sks in Resources */,
 				B7B04A9D2497444400D1CB24 /* Main.storyboard in Resources */,
 				B7E8453324A050FD00E2294B /* wow.gif in Resources */,
 				B7E8454424A0534200E2294B /* wow.atlas in Resources */,
